@@ -11,10 +11,37 @@
         android:id="@+id/button"
         android:layout_width="348dp"
         android:layout_height="0dp"
-        android:layout_marginTop="376dp"
+        android:layout_marginTop="304dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.303"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:layout_width="294dp"
+        android:layout_height="166dp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="538dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </HorizontalScrollView>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="366dp"
+        android:layout_height="181dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="122dp"
+        android:layout_height="81dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="399dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
